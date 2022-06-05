@@ -1,4 +1,5 @@
-```Nguyễn Hoàng Hải 20161051
+```
+Nguyễn Hoàng Hải 20161051
 Lê Quang Bảo 20110439
 ```
 Nhận diện khuôn mặt trong ảnh và video với OpenCV, Python và Deep Learning (thư viện chính là `face_recognition`)
