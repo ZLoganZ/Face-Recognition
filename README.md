@@ -22,7 +22,7 @@ Project sẽ có một số thư mục như sau:
 * Và một số file như 
     * `build_dataset.py` - dùng để tạo dataset
     * `encode_faces.py` - encoding (128-d vectors) for faces
-    * `recognizer_faces_image.py` - nhận diện khuôn mặt từ ảnh dựa vào encoding của dataset. Chú ý trong file này có phần kiểm tra match (khớp) với các khuôn mặt trong dataset `matches = face_recognition.compare_faces(data["encodings"], encoding, 0.4)` chúng ta có thể thay đổi tham số cuối nếu nhận diện sai (ảnh không có trong data set mà được nhận diện có trong đó).
+    * `recognizer_faces_image.py` - nhận diện khuôn mặt từ ảnh dựa vào encoding của dataset. Chú ý trong file này có phần kiểm tra match (khớp) với các khuôn mặt trong dataset `matches = face_recognition.compare_faces(data["encodings"], encoding, 0.6)` chúng ta có thể thay đổi tham số cuối nếu nhận diện sai (ảnh không có trong data set mà được nhận diện có trong đó).
     * `encoding.pickle` - encodings được tạo ra từ `encode_faces.py` sẽ được lưu vào disk thông qua file này
 
 ### Bước1. Tạo dataset 
